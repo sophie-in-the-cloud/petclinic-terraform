@@ -7,7 +7,7 @@ It demonstrates Infrastructure as Code (IaC) with a modular design, separating *
 ---
 
 ## 🏗️ Architecture
-![Architecture](.arch-petclinic-terraform.png)
+![Architecture](arch-petclinic-terraform.png)
 
 **Main components:**
 - **VPC & Subnets** – Public and private subnets across multiple Availability Zones  
