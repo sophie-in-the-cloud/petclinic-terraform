@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+sed -i "s#http://10\.0\.3\.65:8080/#http://${endpoint}:8080/#g" /etc/apache2/sites-available/000-default.conf
+systemctl restart apache2
+systemctl daemon-reload
+ 
